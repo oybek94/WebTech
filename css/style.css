@@ -450,4 +450,20 @@ body {
 }
 
 
+.gallery{
+    display: flex;
+    flex-direction: row;
+   
+}
+
+.gallery__img {
+    width: 25%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
 
