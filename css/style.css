@@ -374,4 +374,80 @@ body {
     text-transform: uppercase;
     color: #5C6F87;
     margin-top: 0;
+}   
+
+
+.whyus {
+    background: linear-gradient(rgba(246, 246, 246, 0.9), rgba(246, 246, 246, 0.9)),
+	url("/img/whyus\ bg.png") left 50% top 50% / cover no-repeat;
+    height: 1238px;
 }
+
+.whyus__container {
+    padding-left: 132px;
+    padding-top: 148px;
+}
+
+.whyus__title {
+    border-left: 3px solid #377DFF;
+    padding-left: 28px;
+}
+
+.whyus__number:hover .whyus__number__number {
+    color: #377DFF;
+}
+
+.whyus__title__primary {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 46px;    
+    letter-spacing: 1px;    
+    color: #233142;
+    margin: 0;
+}
+
+.whyus__title__blue {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    letter-spacing: 1px;
+    color: #377DFF;
+    margin: 0;
+    margin-bottom: 86px;
+}
+
+.whyus__number__number {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 44px;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: #657991;
+}
+
+.whyus__number__h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #233142;
+}
+
+.whyus__number__p {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C6F87;
+    width: 567px;
+}
+
+
+
