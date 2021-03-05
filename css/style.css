@@ -531,3 +531,80 @@ img {
     color: #4E5E72;
     margin: 0;
 }
+
+
+.innovation {
+    background-color: #233142;
+    height: 100vh;
+    background-image: url("/img/innovation.png");
+    background-repeat: no-repeat;
+    background-position: left top -210px;
+}
+
+.innovation__container {
+    padding: 0 171px 0 47px;
+    display: flex;
+}
+
+.innovation__column {
+    width: 50%;
+}
+
+.innovation__h {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 80px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.innovation__blue {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 69px;
+    letter-spacing: 1px;
+    color: #377DFF;
+    margin: 0;
+}
+
+.innovation__p {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 30px;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+}
+
+.innovation__buttons {
+    display: flex;
+    margin-top: 67px;
+}
+
+.innovation__buttons__blue a{
+    padding: 15px 37px;
+    background-color: #377DFF;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid transparent;
+    margin-right: 20px;
+}
+
+.innovation__buttons__white a{
+    padding: 15px 37px;
+    color: #ffffff;
+    text-decoration: none;
+    border: 2px solid #377DFF;
+    box-sizing: border-box;
+}
+
+.center {
+    margin-top: 147px;
+    margin-left: 100px;
+}
