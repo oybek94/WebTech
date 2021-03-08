@@ -89,20 +89,6 @@ body {
     margin: 0;
 }
 
-/* .rectangle__texts__num::before {
-    content: "";
-    width: 1px;
-    height: 130px;
-    color: #377DFF;
-    display: block;
-
-    position:absolute;
-    top: 0;
-    right: 0;
-    z-index: 1;
-
-} */
-
 .rectangle__texts_h2 {
     border-left: 1px solid #377DFF;
     padding-left: 30px;
@@ -470,8 +456,9 @@ img {
 }
 
 .testimonials__title {
-    text-align: center;
+    
     margin-bottom: 72px;
+
 }
 
 .testimonials__team {
@@ -512,9 +499,9 @@ img {
 .testimonials__h {
     font-family: Montserrat;
     font-style: normal;
-    font-weight: normal;
-    font-size: 27px;
-    line-height: 34px;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
     text-align: center;
     letter-spacing: 1px;
     color: #141D28;
@@ -535,7 +522,7 @@ img {
 
 .innovation {
     background-color: #233142;
-    height: 100vh;
+    height: 650px;
     background-image: url("/img/innovation.png");
     background-repeat: no-repeat;
     background-position: left top -210px;
@@ -607,4 +594,94 @@ img {
 .center {
     margin-top: 147px;
     margin-left: 100px;
+}
+
+
+.news__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 46px;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #141D28;
+    margin-top: 156px;
+    margin-bottom: 72px;
+}
+
+.news__container {
+    margin: 0 135px 150px 135px;
+}
+
+.news__row {
+    display: flex;
+    flex-direction: column;    
+}
+
+.news__foto {
+    position: relative;
+    color: white;
+}
+
+.news__info {
+    display: flex;
+    flex-direction: column;
+    width: 770px;
+}
+
+.news__info__container{
+    padding: 64px 93px 1px 65px;
+}
+
+.category-button {
+    position: absolute;
+    top: 30px;
+    left: 30px;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 3px 9px;
+    background-color: #377DFF;
+}
+
+.news__info__title {
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 23px;
+    letter-spacing: 1px;
+    color: #141D28;
+}
+
+.news__author {
+    display: flex;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 30px;
+    text-transform: capitalize;
+    color: #5C6F87;
+}
+
+.news__author h5 {
+    padding-right: 49px;
+}
+
+.news__text {
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 30px;
+    color: #5C6F87;
+    margin-bottom: 57px;
+}
+
+.detail__button {
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    color: #141D28;
+    text-decoration: none;
 }
